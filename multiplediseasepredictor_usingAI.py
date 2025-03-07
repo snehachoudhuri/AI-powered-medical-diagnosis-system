@@ -26,13 +26,13 @@ if st.session_state.landing_page:
 
 #loading saved models
 
-heart_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/heart_disease_model.sav', 'rb'))
-diabetes_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/diabetes_model.sav', 'rb'))
-alzheimer_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/alzheimer_model.sav', 'rb'))
-liver_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/Liver_disease_model.sav', 'rb'))
-anemia_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/Anemia_model.sav', 'rb'))
-kidney_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/kidney_model.sav', 'rb'))
-asthma_model = pickle.load(open('C:/Users/Sneha/Downloads/OneDrive_2025-02-24/Medical diagnosis using AI/Saved Models/Asthma_model.sav', 'rb'))
+heart_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+alzheimer_model = pickle.load(open('alzheimer_model.sav', 'rb'))
+liver_model = pickle.load(open('Liver_disease_model.sav', 'rb'))
+anemia_model = pickle.load(open('Anemia_model.sav', 'rb'))
+kidney_model = pickle.load(open('kidney_model.sav', 'rb'))
+asthma_model = pickle.load(open('Asthma_model.sav', 'rb'))
 
 #sidebar 
 
